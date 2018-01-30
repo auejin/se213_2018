@@ -4,7 +4,7 @@
 
 ## 수업 내용
 
-[Course Schedule](Schedule) 참고
+[Course Schedule](Schedule.md) 참고
 
 ## 개요
 
