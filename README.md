@@ -148,12 +148,12 @@ python은 초보자들이 배우기에 상대적으로 쉬우면서도 강력한
 
 ## 교재/읽을 거리
 
-### 주교재: to be announced
+### 주교재
 
 ### 참고 교재
 - Python for Everybody, Exploring data in python 3 (정보교육을 위한 파이썬)
   - 영어: http://www.pythonlearn.com/book.php
-  - 한국어 번역: http://python.xwmooc.org
+  - 한국어 번역: https://www.pythonlearn.com/translations/KO/book_009_ko.pdf
 - Byte of python (아래 사이트에서 무료로 다운로드 받을 수 있습니다.)
   - 영어 (python 3 기준)
     - html 버전: http://python.swaroopch.com/
