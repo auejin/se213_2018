@@ -231,5 +231,5 @@ $$ F = G \frac{m_1 \cdot m_2}{r^2}, G = 6.67384 \times 10^{-11} $$
 Enter the mass of object 1 (kg): 5.972e24
 Enter the mass of object 2 (kg): 1.989e30
 Enter the distance between object 1 and object 2 (m): 1.496e11
-The force between the object 1 and object 2 is 3.5421519355858047e+22 N
+The force between the object 1 and object 2 is 3.5421519355858043e+22 N
 ```
