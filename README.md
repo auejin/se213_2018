@@ -178,9 +178,10 @@ python 교재는 매우 많으니, 그 중에 한 권을 정해서 보시면 됩
 - codeacademy: 기초적인 python 코드를 온라인 상에서 따라하면서 배울 수 있는 사이트
 - python tutor: python 코드의 실행을 시각화하여 보여주는 사이트
 - PySchools python quick reference guide: 다른 언어를 알고 있는 사람이 python을 빠르게 배울 때 도움이 되는 사이트
+- The python language reference: https://docs.python.org/3/reference/
 
 ### Further readings on python or programming (계속 추가될 예정)
-- The python language reference: https://docs.python.org/3/reference/
+- (어떻게 프로그래밍을 공부할 것인가](https://paper.dropbox.com/doc/UFXkqqqwYBWfpDmigP0WE)
 - Python style guide
   - Official document: https://www.python.org/dev/peps/pep-0008/
   - 한국어 번역: http://kenial.tistory.com/902
