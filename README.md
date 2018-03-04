@@ -59,40 +59,39 @@ python은 초보자들이 배우기에 상대적으로 쉬우면서도 강력한
 
 | 이름   | 담당분반 | 이메일                 |
 |-------|--------|-----------------------|
-| 조민규 |  TBD   | mingyu.cho (at) dgist |
-| 최하정 |  TBD | tresa (at) nate (dot) com |
-| 송유진 |  TBD |  |
+| 조민규 |  월4-6p   | mingyu.cho (at) dgist |
+| 최하정 |  월, 목 | tresa (at) nate (dot) com |
+| 송유진 |  화 | yujinkor (at) naver (dot) com |
 
 ### TA
 
 | 조교  | 담당시간  | 분반       | 이메일 (@dgist.ac.kr) |
 |------|---------|-----------|---------------------|
-| 배정민 | 월10-12 | SE213b-02 | |
-| 이지혜 | 월1-3p  | SE213b-03 |  |
-| 김한별 | 월4-6p  | SE213b-01 |  |
-| 강기동 | 화10-12 | SE213b-06 |  |
-| 이은정 | 화1-3p  | SE213b-07 |  |
-| 이승학 | 화4-6p  | SE213b-08 |  |
-| 문시훈 | 목10-12 | SE213b-04 |  |
-| 유재민 | 목1-3p  | SE213b-05 |  |
+| 배정민 | 월10-12 | SE213b-02 | qhtjrmin |
+| 이지혜 | 월1-3p  | SE213b-03 | jh_lee |
+| 김한별 | 월4-6p  | SE213b-01 | hbstella92 |
+| 강기동 | 화10-12 | SE213b-06 | kd_kang |
+| 이은정 | 화1-3p  | SE213b-07 | iej0710 |
+| 이승학 | 화4-6p  | SE213b-08 | justonezhsks |
+| 문시훈 | 목10-12 | SE213b-04 | msh0576 |
+| 유재민 | 목1-3p  | SE213b-05 | ryujm95 |
+| 안지운 | n/a     | n/a | jyun |
 
 ## 강의와 실습 시간
 
 ### Office hour (시작시간부터 30분)
 
-| 담당  | 시간     | 장소    |
+| 담당  | 시간     | 장소 (E3-) |
 |------|---------|--------|
-|  |     |  |
-|  |     |  |
-|  |     |  |
-|  |     |  |
-|  |     |  |
-|  |     |  |
-|  |     |  |
-|  |     |  |
-|  |     |  |
-|  |     |  |
-|  |     |  |
+| 배정민 | 월1:30p | 219 |
+| 문시훈 | 월9:00p | 522 |
+| 김한별 | 화2:00p | 2층 엘레베이터 앞 휴게실 |
+| 강기동 | 화4:00p | 304 |
+| 이지혜 | 수11:00 | 403 |
+| 유재민 | 수3:00p | 506 |
+| 이승학 | 목11:00 | 304 |
+| 이은정 | 목2:00p | 219 |
+| 안지운 | 금2:30p | 404 |
 
 - 오피스아워는 여러 가지 사정으로 바뀔 수 있으니, 이 곳에서 항상 확인하시기 바랍니다.
 
@@ -105,14 +104,18 @@ python은 초보자들이 배우기에 상대적으로 쉬우면서도 강력한
 
 ### 평가 방법
 
-아래와 같은 비율로 성적 평가를 할 예정입니다. (TBD)
+아래와 같은 비율로 성적 평가를 할 예정입니다.
 
 | 내용    | 비중 |
 |--------|-----|
 | 중간고사 | 30% |
 | 기말고사 | 30% |
 | 과제    | 40% |
-| 결석    | TBD |
+
+* 결석시 penalty (전체 100점 기준)
+  - 이론: `2 ** min(n - 2, 0) - 1`, n=결석회수
+  - 실습: 2회 1점, 3회 3점, 4회 이상 F
+
 
 ### 학점 (TBD)
 
@@ -125,7 +128,7 @@ python은 초보자들이 배우기에 상대적으로 쉬우면서도 강력한
 
 ## 사용 도구
 
-- elice: https://dgist.elice.io/
+- elice: https://dgist.elice.io/courses/263/
 - anaconda: https://www.continuum.io/downloads
 - pycharm: https://www.jetbrains.com/pycharm/
 
@@ -144,16 +147,20 @@ python은 초보자들이 배우기에 상대적으로 쉬우면서도 강력한
 - python에 관한 내용과 실습 출석 등에 관한 부분은 실습 담당 교수/조교에게 보낼 것
 - 학점 등 평가에 대한 부분은 실습 담당 교수와 조민규 교수에게 보낼 것
 - 읽을 거리에 있는 이메일 에티켓을 참고할 것
-  - 제목에 [SE213 x분반]을 포함할 것
+  - 제목에 [SE213 x분반]을 포함할 것 (실습 분반)
 
 ## 교재/읽을 거리
 
 ### 주교재
 
+python 교재는 매우 많으니, 그 중에 한 권을 정해서 보시면 됩니다. 아래 참고 교재에 온라인으로 접근 가능한 책들이 많이 있으니, 그 중에 한 권을 정해서 보시는 것도 좋습니다.
+
 ### 참고 교재
+- How to think like a computer scientist: http://www.openbookproject.net/thinkcs/python/english2e/
 - Python for Everybody, Exploring data in python 3 (정보교육을 위한 파이썬)
   - 영어: http://www.pythonlearn.com/book.php
   - 한국어 번역: https://www.pythonlearn.com/translations/KO/book_009_ko.pdf
+- CS for all: https://www.cs.hmc.edu/csforall/
 - Byte of python (아래 사이트에서 무료로 다운로드 받을 수 있습니다.)
   - 영어 (python 3 기준)
     - html 버전: http://python.swaroopch.com/
@@ -165,7 +172,6 @@ python은 초보자들이 배우기에 상대적으로 쉬우면서도 강력한
     - pdf 버전: http://byteofpython-korean.sourceforge.net/byte_of_python.pdf
 - 처음 시작하는 python, 빌 루바노빅 지음 | 최길우 옮김 | 한빛미디어 | 2015년 12월 10일 출간
 - 파이썬 완벽 가이드, 데이비드 M. 비즐리 지음 | 송인철, 송현제 옮김 | 인사이트 | 2012년 04월 06일 출간
-- How to think like a computer scientist: http://www.openbookproject.net/thinkcs/python/english2e/
 
 ### 강의에 도움이 되는 사이트
 
