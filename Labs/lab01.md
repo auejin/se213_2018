@@ -205,7 +205,7 @@ print(float_value, type(float_value))
 Enter your last name: Bond
 Enter your first name: James
 James Bond
-Bond, James
+Bond , James
 ```
 
 ## 연습 2: 온도 변환
