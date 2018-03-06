@@ -1,14 +1,6 @@
 # SE213 2018 Course Home
 
-(Last updated: Wed Feb 14 15:53:00 DST 2018)
-
-## 공지
-
-이론 1-3분반은 수강정원을 10% 늘릴 계획입니다. 그렇지만 수강신청을 원하는 모든 분들이 원하는대로 수강신청을 못할 수 있음을 미리 말씀드리고, 추가적인 수강정원을 불가능하다는 점 말씀드립니다.
-
-실습분반의 경우는 개강 이후, 실습 담당 교수님과 논의 후 결정하도록 하겠습니다.
-
-마지막으로 프로그래밍의 경우, 이론과 실습을 모두 수강신청해야만 합니다.
+(Last updated: Tue Mar  6 15:36:20 JST 2018)
 
 ## 수업 내용
 
@@ -173,13 +165,6 @@ python 교재는 매우 많으니, 그 중에 한 권을 정해서 보시면 됩
 - 처음 시작하는 python, 빌 루바노빅 지음 | 최길우 옮김 | 한빛미디어 | 2015년 12월 10일 출간
 - 파이썬 완벽 가이드, 데이비드 M. 비즐리 지음 | 송인철, 송현제 옮김 | 인사이트 | 2012년 04월 06일 출간
 
-### 강의에 도움이 되는 사이트
-
-- codeacademy: 기초적인 python 코드를 온라인 상에서 따라하면서 배울 수 있는 사이트
-- python tutor: python 코드의 실행을 시각화하여 보여주는 사이트
-- PySchools python quick reference guide: 다른 언어를 알고 있는 사람이 python을 빠르게 배울 때 도움이 되는 사이트
-- The python language reference: https://docs.python.org/3/reference/
-
 ### Further readings on python or programming (계속 추가될 예정)
 - (어떻게 프로그래밍을 공부할 것인가](https://paper.dropbox.com/doc/UFXkqqqwYBWfpDmigP0WE)
 - Python style guide
@@ -189,13 +174,29 @@ python 교재는 매우 많으니, 그 중에 한 권을 정해서 보시면 됩
   - Google python style guide: https://google.github.io/styleguide/pyguide.html
   - 참고: http://docs.python-guide.org/en/latest/writing/style/
 
-### 프로그래밍 연습 사이트
+### python 프로그래밍할 때 도움을 받을 수 있는 사이트
+
+#### References (사전처럼 언어에 필요한 내용을 찾아볼 수 있는 문서)
+
+- [The python language reference](https://docs.python.org/3/reference/): 공식적인 python 언어의 reference
+
+#### Tutorials (python을 배울 수 있는 사이트)
+
+- [codeacademy](https://www.codecademy.com): 기초적인 python 코드를 온라인 상에서 따라하면서 배울 수 있는 사이트
+- [PySchools python quick reference guide](http://doc.pyschools.com): 다른 언어를 알고 있는 사람이 python을 빠르게 배울 때 도움이 되는 사이트
+
+#### 문제 풀이
 
 - 17 Coding Challenges to Help You Train Your Brain: http://codecondo.com/coding-challenges/
 - 위 글에서 추천해준 사이트 중에 제가 사용해본 것은 아래와 같고, 모두 괜찮았습니다.
   - http://exercism.io
   - https://codefights.com
   - https://www.codecademy.com
+
+#### Others
+
+- [python tutor](http://pythontutor.com): python 코드의 실행을 시각화하여 보여주는 사이트
+
 
 
 ### 기타
