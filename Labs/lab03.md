@@ -238,9 +238,13 @@ r = 1.0
 print(circumference(r), area(r))
 r = 3.0
 print(circumference(r), area(r))
+print(sum_of_areas(1, 2, 3))
+print(sum_of_areas(1))
 ```
 **실행결과**
 ```
 6.283185307179586 3.141592653589793
 18.84955592153876 28.274333882308138
+43.982297150257104
+3.141592653589793
 ```
