@@ -85,11 +85,11 @@ DGIST 2학년 빅데이터양은 이번 여름에 FGLP로 미국을 방문하게
 ### `tip(price, vat_ratio, tip_ratio, after_tax)`
 **인자**
 - price: float. 음식가격
-- vat: float. 부가가치세의 %
+- vat: float. 부가가치세의 %
 - tip_ratio: float. 팁의 %
 - after_tax: bool
   - True: 부가가치세를 포함한 음식가격에 tip_ratio만큼 팁을 계산
-  - False: 부가가치세를 포함하지 않은 음식가격에 tip_ratio만큼 팁을 계산
+  - False: 부가가치세를 포함하지 않은 음식가격에 tip_ratio만큼 팁을 계산
 
 **반환값**
 - float: 팁의 양
@@ -106,17 +106,17 @@ DGIST 2학년 빅데이터양은 이번 여름에 FGLP로 미국을 방문하게
 - tip_ratio: float. 팁의 %
 - after_tax: bool
   - True: 부가가치세를 포함한 음식가격에 tip_ratio만큼 팁을 계산
-  - False: 부가가치세를 포함하지 않은 음식가격에 tip_ratio만큼 팁을 계산
+  - False: 부가가치세를 포함하지 않은 음식가격에 tip_ratio만큼 팁을 계산
+
+**반환값**
+- float: 음식 가격에 부가가치세, 팁을 포함한 전체 계산해야 될 값
+  - 소수점 3째자리에서 반올림해서 소수점 이하 2자리만 남은 수를 반환할 것
 
 **참고**
 
 소수점 이하 반올림을 하기 위해서 파이썬의 내장함수 `round()`를 사용할 것.
 
 [Python official documentation on `round()`](https://docs.python.org/3/library/functions.html#round)
-
-**반환값**
-- float: 음식 가격에 부가가치세, 팁을 포함한 전체 계산해야 될 값
-  - 소수점 3째자리에서 반올림해서 소수점 이하 2자리만 남은 수를 반환할 것
 
 **함수사용예시**
 ```python
