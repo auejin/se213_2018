@@ -85,7 +85,7 @@ DGIST 2학년 빅데이터양은 이번 여름에 FGLP로 미국을 방문하게
 ### `tip(price, vat_ratio, tip_ratio, after_tax)`
 **인자**
 - price: float. 음식가격
-- vat: float. 부가가치세의 %
+- vat_ratio: float. 부가가치세의 %
 - tip_ratio: float. 팁의 %
 - after_tax: bool
   - True: 부가가치세를 포함한 음식가격에 tip_ratio만큼 팁을 계산
@@ -102,7 +102,7 @@ DGIST 2학년 빅데이터양은 이번 여름에 FGLP로 미국을 방문하게
 ### `tip(price, vat_ratio, tip_ratio, after_tax)`
 **인자**
 - price: float. 음식가격
-- vat: float. 부가가치세의 %
+- vat_ratio: float. 부가가치세의 %
 - tip_ratio: float. 팁의 %
 - after_tax: bool
   - True: 부가가치세를 포함한 음식가격에 tip_ratio만큼 팁을 계산
