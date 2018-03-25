@@ -99,7 +99,7 @@ DGIST 2학년 빅데이터양은 이번 여름에 FGLP로 미국을 방문하게
 
 미국에서도 팁을 세금 전에 주어야 할까 세금 후에 주어야 할까라는 논쟁이 있다.
 
-### `tip(price, vat_ratio, tip_ratio, after_tax)`
+### `total(price, vat_ratio, tip_ratio, after_tax)`
 **인자**
 - price: float. 음식가격
 - vat_ratio: float. 부가가치세의 %
