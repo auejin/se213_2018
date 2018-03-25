@@ -125,7 +125,7 @@ DGIST 2학년 빅데이터양은 이번 여름에 FGLP로 미국을 방문하게
 **함수사용예시**
 ```python
 print(vat(20, 6))
-print(vat(20, 5))
+print(vat(12.34, 5))
 print(tip(20, 6, 20, False))
 print(total(20, 6, 20, False))
 print(total(20, 6, 20, True))
@@ -133,7 +133,7 @@ print(total(20, 6, 20, True))
 
 ```
 1.2
-1.0
+0.62
 4.0
 25.2
 25.44
