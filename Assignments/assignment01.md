@@ -7,11 +7,10 @@
 1. 그중에 400으로 나누어떨어지는 해는 윤년으로 둔다.(1600년, 2000년, 2400년 …)
 
 **인자**
-- year: 윤년인지 확인하고자 하는 연도. 항상 양의 정수가 입력된다고 가정해도 됨
+- year (int): 윤년인지 확인하고자 하는 연도. 항상 양의 정수가 입력된다고 가정해도 됨
 
 **반환값**
-- True: year가 윤년인 경우
-- False: year가 윤년이 아닌 경우
+- bool: 윤년이면 `True`, 아니면 `False`
 
 **함수 사용 예시**
 ```python
@@ -44,12 +43,13 @@ DGIST 2학년 프밍군은 기분에 따라 과제를 매우 일찍하는 경우
 프밍군의 기분과 과제제출기한의 남을 날을 입력으로 받아, 프밍군의 과제 수행 상황을 문자열로 반환하는 함수 `status(mood, days)`를 작성하시오.
 
 **인자**
-- mood: 의욕충만 여부
+- mood (bool): 의욕충만 여부
   - `True`: 의욕충만
   - `False`: 의욕저하
-- days: 과제 제출 남은 일수. 항상 양의 정수라 가정하면 됨.
+- days (int): 과제 제출 남은 일수. 항상 양의 정수라 가정하면 됨.
 
-**반환값**: 위의 표와 같은 상태가, **문자열** 로 반환됨
+**반환값**
+- str:위의 표와 같은 상태를 반환
 
 **함수 사용 예시**
 ```python
@@ -75,8 +75,8 @@ DGIST 2학년 빅데이터양은 이번 여름에 FGLP로 미국을 방문하게
 
 ### `vat(price, vat_ratio)`
 **인자**
-- price: float. 음식가격
-- vat_ratio: float. 부가가치세의 %.
+- price (float): 음식가격
+- vat_ratio (float): 부가가치세의 %.
 
 **반환값**
 - float: 부가가치세의 양
@@ -84,12 +84,12 @@ DGIST 2학년 빅데이터양은 이번 여름에 FGLP로 미국을 방문하게
 
 ### `tip(price, vat_ratio, tip_ratio, after_tax)`
 **인자**
-- price: float. 음식가격
-- vat_ratio: float. 부가가치세의 %
-- tip_ratio: float. 팁의 %
-- after_tax: bool
-  - True: 부가가치세를 포함한 음식가격에 tip_ratio만큼 팁을 계산
-  - False: 부가가치세를 포함하지 않은 음식가격에 tip_ratio만큼 팁을 계산
+- price (float): 음식가격
+- vat_ratio (float): 부가가치세의 %
+- tip_ratio (float): 팁의 %
+- after_tax (bool)
+  - `True`: 부가가치세를 포함한 음식가격에 tip_ratio만큼 팁을 계산
+  - `False`: 부가가치세를 포함하지 않은 음식가격에 tip_ratio만큼 팁을 계산
 
 **반환값**
 - float: 팁의 양
@@ -101,12 +101,12 @@ DGIST 2학년 빅데이터양은 이번 여름에 FGLP로 미국을 방문하게
 
 ### `total(price, vat_ratio, tip_ratio, after_tax)`
 **인자**
-- price: float. 음식가격
-- vat_ratio: float. 부가가치세의 %
-- tip_ratio: float. 팁의 %
-- after_tax: bool
-  - True: 부가가치세를 포함한 음식가격에 tip_ratio만큼 팁을 계산
-  - False: 부가가치세를 포함하지 않은 음식가격에 tip_ratio만큼 팁을 계산
+- price (float): 음식가격
+- vat_ratio (float): 부가가치세의 %
+- tip_ratio (float): 팁의 %
+- after_tax (bool)
+  - `True`: 부가가치세를 포함한 음식가격에 tip_ratio만큼 팁을 계산
+  - `False`: 부가가치세를 포함하지 않은 음식가격에 tip_ratio만큼 팁을 계산
 
 **반환값**
 - float: 음식 가격에 부가가치세, 팁을 포함한 전체 계산해야 될 값
