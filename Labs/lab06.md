@@ -105,9 +105,7 @@ strin
 
 ## 연습 2: min-max
 
-이중 리스트가 주어졌을 때,
-
-
+이중 리스트가 주어졌을 때, 이중 리스트 내부에 있는 리스트들의 최대값들의 최소값을 구하는 함수 `minmax()`를 구현하시오.
 
 **인자**
 - nested_list: list를 원소로 포함하는 list
@@ -132,9 +130,9 @@ print(minmax(example3))
 operating systems
 ```
 
-##연습 3: 문자열 피라미드
+## 연습 3: 문자열 피라미드
 
-문자열 피라미드를 만드는 `pyramid(char, n, alignment=1)` 함수를 구현하시오.
+문자열 피라미드를 만드는 `pyramid(char, n, alignment=-1)` 함수를 구현하시오.
 
 **Optional**
 같은 동작을 하는 프로그램을 문자열 서식화를 이용하지 않고 만들어보고, 문자열 서식화를 이용해서 만들어 보면 도움이 됨.
@@ -145,9 +143,9 @@ operating systems
 - n: 0 이상의 정수
   - 문자열 피라미드를 몇 칸에 맞추어서, 그리고 몇 줄에 걸쳐 만들 것을 지정
 - alignment: -1, 0, 1 중 하나의 값
-  - 1: 오른쪽에 char를 맞추어 문자열 피라미드를 만듦
+  - -1: 왼쪽에 char를 맞추어 문자열 피라미드를 만듦 (기본값)
   - 0: 가운데에 char를 맞추어 문자열 피라미드를 만듦
-  - -1: 왼쪽에 char를 맞추어 문자열 피라미드를 만듦
+  - 1: 오른쪽에 char를 맞추어 문자열 피라미드를 만듦
 
 **반환값**
 - 문자열: 아래 조건에 맞춘 문자열 피라미드를 포함하는 문자열
@@ -162,7 +160,7 @@ operating systems
 print("Output of pyramid('**', 3)")
 print(pyramid('**', 3))
 print("Output of pyramid('*', 3)")
-print(pyramid('*', 3))
+print(pyramid('+', 3))
 print("Output of pyramid('*', 5)")
 print(pyramid('*', 5))
 print("Output of pyramid('*', 5, 0)")
@@ -174,9 +172,9 @@ print(pyramid('*', 5, -1))
 Output of pyramid('**', 3)
 None
 Output of pyramid('*', 3)
-  *
- **
-***
+  +
+ ++
++++
 
 Output of pyramid('*', 5)
     *
