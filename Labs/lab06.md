@@ -159,7 +159,7 @@ operating systems
 ```python
 print("Output of pyramid('**', 3)")
 print(pyramid('**', 3))
-print("Output of pyramid('*', 3)")
+print("Output of pyramid('+', 3)")
 print(pyramid('+', 3))
 print("Output of pyramid('*', 5)")
 print(pyramid('*', 5))
@@ -171,7 +171,7 @@ print(pyramid('*', 5, -1))
 ```
 Output of pyramid('**', 3)
 None
-Output of pyramid('*', 3)
+Output of pyramid('+', 3)
   +
  ++
 +++
