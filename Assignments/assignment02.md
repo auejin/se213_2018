@@ -147,6 +147,11 @@ Source: wikipedia
 **제한 조건** (아래의 입력은 항상 만족된다. 즉 아래 조건을 어기는 함수 입력값은 신경쓰지 않아도 된다)
 - string에는 문자열만 입력된다고 가정한다.
 
+**참고**
+이 함수를 구현할 때, 인자로 문자열만 전달된다고 가정하셔도 됩니다. 그렇지만, 구현하는 방법에 따라, 임의의 시퀀스 자료형이 입력으로 오는 경우에 작동을 하도록 함수를 구현할 수도 있습니다. (입력된 인자가 어떤 자료형인지 하나하나 비교해서 별도로 만드는 것이 아니라, 같은 방법으로 여러 자료형에 대해서 처리가 되도록 만들 수 있습니다.)
+
+예를 들어, `[2, 3, 5, 7]`이라는 리스트가 인자로 넘겨지면 `[7, 5, 3, 2]`라는 리스트가 반환되도록 만들 수 있습니다.
+
 #### `is_palindrome(string)`
 
 **인자**
@@ -202,7 +207,7 @@ print('* Testing is_palindrome()')
 print(is_palindrome('madam'))
 print(is_palindrome('Madam')) # 대소문자 구분
 print(is_palindrome('hello'))
-print(is_palindrome([1, 2, 1]))
+#print(is_palindrome([1, 2, 1]))
 
 print('* Testing complement_sequence()')
 print(complement_sequence('CGAT'))
@@ -223,7 +228,6 @@ krowemoh erom deen I
 True
 False
 False
-True
 * Testing complement_sequence()
 GCTA
 TAAGC
