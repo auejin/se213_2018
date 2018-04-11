@@ -104,9 +104,9 @@ Oscar:
     Programming: 67
     Average: 65.66666666666667
 There is no student named Emma.
-Linear Algebra: 88.0 97 66
-Cell Biology: 88.8 97 66
-Programming: 85.0 97 66
+Linear Algebra: 78.7 97 62
+Cell Biology: 79.4 100 60
+Programming: 78.9 97 61
 ```
 
 ## 과제 2-2: 회문(回文, palindrome)
