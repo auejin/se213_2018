@@ -54,6 +54,7 @@ midterm_scores = [
   - 학생의 이름이 test_scores에 전달된 인자에 없는 경우: 학생이름이 없다고 출력을 한다, student_name이 'Emma'인 경우, 아래와 같은 출력을 한다.
     - There is no student name Emma.
   - 학생의 이름이 test_scores에 전달된 인자에 있는 경우: 학생들의 이름, 각 과목별 점수, 평균을 출력한다. 자세한 출력 형식은 아래 함수 사용 예시를 참고할 것
+    - 평균 점수는 소수점 이하 한 자리까지만 출력한다.
 
 ### `get_scores(test_scores, course_title, course_name)`
 * 인자
@@ -74,6 +75,7 @@ midterm_scores = [
   - 없음
 * 함수의 동작
   - 교과 이름과 그 과목 점수의 평균, 최대, 최소값을 출력. 출력 형식은 함수 사용 예시를 참고할 것.
+    - 평균 점수는 소수점 이하 한 자리까지만 출력한다.
 
 * 참고: 학생들의 이름은 암호/보안 연구에서 자주 사용되는 이름들을 차용했습니다.
   - 영어: https://en.wikipedia.org/wiki/Alice_and_Bob
@@ -97,12 +99,12 @@ Alice:
     Linear Algebra: 62
     Cell Biology: 60
     Programming: 77
-    Average: 66.33333333333333
+    Average: 66.3
 Oscar:
     Linear Algebra: 67
     Cell Biology: 63
     Programming: 67
-    Average: 65.66666666666667
+    Average: 65.7
 There is no student named Emma.
 Linear Algebra: 78.7 97 62
 Cell Biology: 79.4 100 60
