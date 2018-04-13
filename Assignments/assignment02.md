@@ -52,7 +52,7 @@ midterm_scores = [
   - 없음
 * 함수의 동작
   - 학생의 이름이 test_scores에 전달된 인자에 없는 경우: 학생이름이 없다고 출력을 한다, student_name이 'Emma'인 경우, 아래와 같은 출력을 한다.
-    - There is no student name Emma.
+    - There is no student named Emma.
   - 학생의 이름이 test_scores에 전달된 인자에 있는 경우: 학생들의 이름, 각 과목별 점수, 평균을 출력한다. 자세한 출력 형식은 아래 함수 사용 예시를 참고할 것
     - 평균 점수는 소수점 이하 한 자리까지만 출력한다.
 
